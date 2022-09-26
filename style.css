@@ -1,0 +1,47 @@
+html {
+    background-image: url("images/bg.jpg");
+    background-size: 100%;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+
+ul li a {
+    color: goldenrod;
+    font-size: 12px;
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    float: left;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: green;
+    transform: scale(1.25);
+}
+
+#logo {
+    transition: 0.3s;
+    border-radius: 100%;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
