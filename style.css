@@ -1,6 +1,7 @@
 html {
     background-image: url("images/bg.png");
     background-size: 110%;
+    background-attachment: fixed;
     user-select: none;
     scroll-behavior: smooth;
 }
@@ -60,7 +61,8 @@ ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 10%;
 }
 
 .picContainer {
