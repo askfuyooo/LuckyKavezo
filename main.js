@@ -24,3 +24,17 @@ function picDown(kep) {
         document.getElementById(i).style.backgroundColor = "rgba(255, 255, 255, 0.2)"
     }
 }
+
+window.onscroll = function() {
+    let scrollButton = document.getElementById("upDiv")
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollButton.style.display = "block"
+        scrollButton.style.position = "fixed"
+    } else {
+        scrollButton.style.display = "none"
+    }
+}
+
+function pageUp() {
+    window.location.href = "#"
+}
