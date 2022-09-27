@@ -38,3 +38,7 @@ window.onscroll = function() {
 function pageUp() {
     window.location.href = "#"
 }
+
+function closeBig() {
+    document.getElementById("bigDiv").style.display = "none"
+}
