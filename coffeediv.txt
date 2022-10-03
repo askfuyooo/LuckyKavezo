@@ -1,0 +1,18 @@
+<a href="#" onclick="kepLeiras(logo)">
+                <img src="images/logo.png">
+            </a>
+            <p id="txt">
+                
+            </p>
+
+onmouseleave
+onmouseover
+
+        <div id="coffeeDiv">
+            <div id="pic">
+                <img src="images/Amerikai_Kávék/MiamiBeach_Kávé.PNG" alt="MiamiBeach Kávé" id="coffeeList" draggable="false" onmouseover="picHover()" onmouseleave="picDown()">
+            </div>
+            <div id="desc">
+                asd
+            </div>
+        </div>

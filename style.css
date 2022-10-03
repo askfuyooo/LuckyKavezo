@@ -1,6 +1,6 @@
 html {
-    background-image: url("images/bg.jpg");
-    background-size: 100%;
+    background-image: url("images/bg.png");
+    background-size: 110%;
     user-select: none;
     scroll-behavior: smooth;
 }
@@ -43,6 +43,39 @@ ul li a:hover {
     transition: 0.3s;
     border-radius: 100%;
 }
+
 #logo:hover {
     transform: scale(1.1);
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.szoveg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    opacity: 100%;
+}
+
+.picContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 25%;
+}
+
+.pic {
+    width: 350px;
+    height: 350px;
+    transition: 0.5s;
+    margin: 20px;
+    border-radius: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
 }
