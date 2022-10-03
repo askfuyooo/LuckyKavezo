@@ -1,8 +1,10 @@
 html {
     background-image: url("images/bg.png");
     background-size: 110%;
+    background-attachment: fixed;
     user-select: none;
     scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -60,7 +62,8 @@ ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 10%;
 }
 
 .picContainer {
@@ -78,4 +81,53 @@ ul li a:hover {
     margin: 20px;
     border-radius: 25%;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+#upButton {
+    width: 100%;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#upDiv {
+    width: 3%;
+    position: none;
+    bottom: 0px;
+    right: 0px;
+    transition: 0.3s;
+    display: none;
+}
+
+#upDiv:hover {
+    transform: scale(1.1)
+}
+
+#bigPic {
+    width: 30%;
+}
+
+#bigDiv {
+    width: 90%;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    background-color: rgba(95, 89, 89, 0.89);
+    display: block;
+}
+
+#bigDesc {
+    position: fixed;
+    width: 60%;
+    right: 10%;
+    top: 5%;
+    text-align: justify;
+}
+
+#closePic {
+    width: 3%;
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    border-radius: 100%;
 }
