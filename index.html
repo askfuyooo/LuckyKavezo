@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js" type="text/javascript"></script>
+    <title>Lucky Kávézó | Főoldal</title>
+</head>
+    <body onload="sindexLoaded()">
+        <a href="index.html" draggable="false">
+            <img src="images/logo.png" alt="Hiba lépett fel a kép betöltése közben!" id="logo" draggable="false">
+        </a>
+        <ul>
+            <li>
+                <a href="index.html" draggable="false">
+                    Kezdőlap
+                </a>
+            </li>
+            <li>
+                <a href="coffees.html" draggable="false">
+                    Kávék
+                </a>
+            </li>
+            <li>
+                <a href="#" draggable="false">
+                    Sütik
+                </a>
+            </li>
+            <li>
+                <a href="#" draggable="false">
+                    Blog
+                </a>
+            </li>
+        </ul>
+
+        <div id="indexDiv">
+            <h1 id="indexH1" class="colorP"></h1>
+        </div>
+        <div class="kozepre">
+            <h2>
+                <p class="colorP">
+                    Próbálja ki kedvenc kávéjait, süteményeit!
+                </p>
+            </h2>
+        </div>
+        <div id="creators">
+            <h6>
+                <p>A "Lucky Kávézó" IKT projektet készítették:</p>
+                <p><b>Tóth Ádám és Horgos Hektor</b></p>
+            </h6>
+        </div>
+
+        <script>
+        let _CONTENT = ["Üdvözöljük a Lucky Kávézó weboldalán!"];
+        let _PART = 0;
+        let _PART_INDEX = 0;
+        let _INTERVAL_VAL;
+        let _ELEMENT = document.querySelector("#indexH1");
+        function Type() { 
+            let text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX++;
+            if(text === _CONTENT[_PART]) {
+                clearInterval(_INTERVAL_VAL);
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Delete, 50);
+                }, 1000);
+            }
+        }
+
+        function Delete() {
+            let text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX--;
+            if(text === '') {
+                clearInterval(_INTERVAL_VAL);
+                if(_PART == (_CONTENT.length - 1))
+                    _PART = 0;
+                else
+                    _PART++;
+                _PART_INDEX = 0;
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Type, 100);
+                }, 200);
+            }
+        }
+        _INTERVAL_VAL = setInterval(Type, 100);
+        </script>
+    </body>
+</html>
