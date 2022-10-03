@@ -4,7 +4,7 @@ function picHover(kep) {
     for (i = 1; i <= kepek; i++) {
         if (i == kep) {
             document.getElementById(i).style.filter = "grayscale(0)"
-            document.getElementById(i).style.transform = "scale(1.1)"
+            document.getElementById(i).style.transform = "scale(1.15)"
             //document.getElementById(i).style.filter = "blur(5px)"
             //document.getElementById("txt" + i).style.display = "flex"
             document.getElementById(i).style.backgroundColor = "white"
@@ -41,6 +41,35 @@ function pageUp() {
 
 function closeBig() {
     document.getElementById("bigDiv").style.display = "none"
+}
+
+let szoveg = "Üdvözöljük a Lucky Kávézó weboldalán!"
+let timer
+let koz = szoveg.split("")
+let i = 0
+function indexLoaded() {
+    let text = document.getElementById("indexH1")
+    if (koz.length > 0) {
+        text.innerHTML += koz.shift();
+    } else {
+        clearTimeout(timer);
+            }
+    loopTimer = setTimeout('indexLoaded()',70);
+    
+    /*
+    if (koz.length == 0) {
+        i++
+        if (i % 10 == 0) {
+            text.innerHTML += "_"
+        } if (i % 20 == 0) {
+            text.innerHTML = szoveg
+        }
+        if (i >= 100) {
+            text.innerHTML = szoveg
+            i = 100
+        }  
+    }
+    */
 }
 
 function picClick(kep) {

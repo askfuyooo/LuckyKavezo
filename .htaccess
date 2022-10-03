@@ -2,3 +2,4 @@ RewriteEngine on
 
 RewriteRule ^vaz vaz.html [NC]
 RewriteRule ^coffees coffees.html [NC]
+RewriteRule ^index index.html [NC]
