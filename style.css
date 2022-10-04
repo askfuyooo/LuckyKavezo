@@ -138,6 +138,16 @@ ul li a:hover {
     transform: scale(1.2);
 }
 
+.valto:hover {
+    color: goldenrod;
+    transform: scale(1.1);
+}
+
+.valto {
+    transition: 0.5s;
+    color: white;
+}
+
 #indexDiv {
     position: fixed;
     display: block;
@@ -169,7 +179,7 @@ ul li a:hover {
     position: fixed;
 }
 
-#coffeeH1 {
+#alcim {
     width: 15%;
     text-align: center;
     letter-spacing: 5px;
@@ -180,19 +190,47 @@ ul li a:hover {
     margin-right: auto;
     font-weight: bold;
     font-family: sans-serif;
+    top: 13%;
+    position: absolute;
+    left: 43%;
 }
 
-#coffeeH1:hover {
+#alcim:hover {
     color: goldenrod;
     transform: scale(1.1);
 }
 
 input {
     text-align: center;
+    background-color: lightgray;
 }
 
 #blogMsg {
-    width: 50%;
+    width: 500px;
     height: 200px;
-    
+    resize: none;
+    background-color: lightgray;
+}
+
+#blogDiv {
+    bottom: 1%;
+    vertical-align: bottom;
+    position: fixed;
+}
+
+.creators {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.creators:hover {
+    background-color: gray;
+}
+
+#mainAlcim {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
