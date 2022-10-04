@@ -43,6 +43,23 @@ function closeBig() {
     document.getElementById("bigDiv").style.display = "none"
 }
 
+function submitBlog() {
+    let name = document.getElementById("blogName").value
+    let message = document.getElementById("blogMsg").value
+
+    if (name) {
+        if (message) {
+            let query = "$name=" + name + "$msg=" + message
+            console.log(query)
+           // window.location.href = "sendblog.php" | majd ide kell az adatbázisba töltés téma
+        } else {
+            alert("Írjon be egy üzenetet!")
+        }
+    } else {
+        alert("Írja be a nevét!")
+    }
+}
+
 let szoveg = "Üdvözöljük a Lucky Kávézó weboldalán!"
 let timer
 let koz = szoveg.split("")
