@@ -171,29 +171,29 @@ function picClick(kep) {
         }
         case 14: {
             bigPic.setAttribute("src", "images/Latin_Kávék/PeruiNarancsvirágLatte_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Perui narancs-virág latte</h1> <p> Ennek a meleg, tejes italnak már a részletes leírása is költemény, hát még az íze! Inka égi-virág kávé sárgabarack zselével, kék konkolyból és narancsvirágból.</p> <p><i> 850 Ft</i></p>"
+            bigDesc.innerHTML = "<h1>Perui narancs-virág latte - Édes</h1> <p> Ennek a meleg, tejes italnak már a részletes leírása is költemény, hát még az íze! Inka égi-virág kávé sárgabarack zselével, kék konkolyból és narancsvirágból.</p> <p><i> 850 Ft</i></p>"
             break
         }
         case 15: {
             bigPic.setAttribute("src", "images/Latin_Kávék/RióiKókuszos_Kávé.PNG")
-            bigDesc.innerHTML = "<h1> Riói kókuszos „media” rózsaborssal</h1> <p> Ahogy az elnevezésben szereplő „media” szócska is mutatja, ez a kávé tejjel, közepes hosszúságúra főzve készül, a legújabb riói trend szerint, kókusszal és rózsaborssal felgőzölve. A rózsabors elnevezése csalóka, mert az íze nem csípős, hanem édeskés, csak a végén emlékeztet kicsit a borsra.</p> <p><i> 850 Ft</i></p>"
+            bigDesc.innerHTML = "<h1> Riói kókuszos „media” rózsaborssal - Édes</h1> <p> Ahogy az elnevezésben szereplő „media” szócska is mutatja, ez a kávé tejjel, közepes hosszúságúra főzve készül, a legújabb riói trend szerint, kókusszal és rózsaborssal felgőzölve. A rózsabors elnevezése csalóka, mert az íze nem csípős, hanem édeskés, csak a végén emlékeztet kicsit a borsra.</p> <p><i> 850 Ft</i></p>"
             break
         }
 
         //Sarkvidéki kávék
         case 16: {
             bigPic.setAttribute("src", "images/Sarkvidéki_Kávék/BajorJég_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1> Bajor jég-kávé - Édes</h1> <p> A bajorok világosra pörkölt, citrusos kávéja remekül egybesimul a hideg, olvasztott cukorsziruppal. Ezt nálunk citromreszelék teszi még inkább pikánssá. A bajorok tejszínhabot tesznek a tetejére, úgyhogy mi is!</p> <p><i> 850 Ft</i></p>"
             break
         }
         case 17: {
             bigPic.setAttribute("src", "images/Sarkvidéki_Kávék/FilmsztárLatte_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1> Filmsztárok mogyorós kókusz-lattéja - Édes</h1> <p> Los Angeles-i jeges kókusz-kávé mogyorós csokikrémmel, és rózsaborssal meghintett habbal. Ízkavalkád! Pont olyan intenzív és ingergazdag, mint a hollywoodi kasszasikerek. És pont úgy, mint a legjobb filmek, ez is a végére áll össze  csak most a szánkban.</p> <p><i> 850 Ft</i></p>"
             break
         }
         case 18: {
             bigPic.setAttribute("src", "images/Sarkvidéki_Kávék/IceCappuccino_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1> Ice cappuccino - Édes</h1> <p> A jeges „klasszikus”. Krémes espresso és habosított édes tej jeges keveréke. Az espressot rövidre főzzük, hiszen a jég miután megolvad, úgyis kicsit „meghosszabbítja” a kávét!</p> <p><i> 850 Ft</i></p>"
             break
         }
     }
