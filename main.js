@@ -51,7 +51,7 @@ function submitBlog() {
         if (message) {
             let query = "$name=" + name + "$msg=" + message
             console.log(query)
-           // window.location.href = "sendblog.php" | majd ide kell az adatbázisba töltés téma
+            alert("Sajnáljuk!\nAz adatbázis jelenleg fejlesztés alatt áll, így a blog rész jelenleg nem üzemel.")
         } else {
             alert("Írjon be egy üzenetet!")
         }
