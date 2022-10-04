@@ -1,0 +1,24 @@
+html {
+    /*background-image: url("adamBG.gif");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+h1 {
+    font-size: 120px;
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    top: 7%;
+    position: absolute;
+    left: 17%;
+    transform: rotate(-1deg);
+    transition: 0.5s;
+}
+
+h1:hover {
+    color: white;
+}

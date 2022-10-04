@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^adam adam.html [NC]
+RewriteRule ^hektor hektor.html [NC]

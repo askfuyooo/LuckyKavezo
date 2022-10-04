@@ -1,6 +1,6 @@
 html {
     background-image: url("images/bg.png");
-    background-size: 110%;
+    background-size: cover;
     background-attachment: fixed;
     user-select: none;
     scroll-behavior: smooth;
