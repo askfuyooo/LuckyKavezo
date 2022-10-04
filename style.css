@@ -37,7 +37,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: green;
+    color: white;
     transform: scale(1.25);
 }
 
@@ -154,8 +154,12 @@ ul li a:hover {
     text-align: center;
 }
 
-.colorP {
+.feher {
     color: white;
+}
+
+.arany {
+    color: goldenrod;
 }
 
 #creators {
@@ -163,4 +167,22 @@ ul li a:hover {
     left: 1%;
     text-align: center;
     position: fixed;
+}
+
+#coffeeH1 {
+    width: 15%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#coffeeH1:hover {
+    color: goldenrod;
+    transform: scale(1.1);
 }
