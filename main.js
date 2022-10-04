@@ -81,24 +81,24 @@ function picClick(kep) {
         //Amerikai kávék
         case 1: {
             bigPic.setAttribute("src", "images/Amerikai_Kávék/MiamiBeach_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1>Miami beach-i vannília latte - Édes</h1> <p>A túl édes latin (főleg argentin és brazil) kávék ellen harcoló „ízesített” amerikai kávék slágerreceptje. A felgőzölt tejbe sűrű vaníliát kevernek, kis fahéjjal és csipetnyi szerecsendióval.</p> <p><i>850Ft</i></p>"
             break
         }
         case 2: {
             bigPic.setAttribute("src", "images/Amerikai_Kávék/Mississippi_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1>Mississippi gesztenye latte - Édes</h1> <p>A Mississippi környéke, vagyis az amerikai déli konyha az édes gesztenye-recept kreációk zászlóshajója. A karácsony a new orleans-i otthonokban például aligha képzelhető el gyömbéres, gesztenyés sárgarépaszósz nélkül. A szilveszter este pedig a mississippi gesztenye-kávéval indul. Édes, darabos, sűrű gesztenyében úszó varázslattal.</p> <p><i>580Ft</i></p>"
             break
         }
         case 3: {
             bigPic.setAttribute("src", "images/Amerikai_Kávék/StLouise_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1>St. Louisi földimogyoró brisé - Édes</h1> <p>Az eredetileg orvosságként felirt mogyoróvajat St. Louisban keverték először tejeskávéba, több mint száz évvel ezelőtt. Tejszínt adtak hozzá, és reszelt csokoládéval egészítették ki (ezt hívták akkoriban francia kifejezéssel brisé-nek). Mi még narancs-kókuszt is szórunk a tetejére.</p> <p><i>850Ft</i></p>"
             break
         }
 
         //Arab kávék
         case 4: {
             bigPic.setAttribute("src", "images/Arab_Kávék/babelTornya_kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1>Bábel-tornya karamellkávé - Édes</h1> <p>A mai Irak területén épített ókori torony nyolc emeletből állt, ezért a mi kávénk is nyolc alkotórészből építkezik. A tejjel, karamellával és a cukorral készített alap espressoban egymásba gabalyodnak a fűszerek: a gyömbér, a fahéj, és a szegfűbors, valamint az ital tetején a ropogós tejszín-krokant. Valóságos édenkerti gyönyör!</p> <p><i>850Ft</i></p>"
             break
         }
         case 5: {
