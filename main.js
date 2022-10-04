@@ -166,17 +166,17 @@ function picClick(kep) {
         //Latin kávék
         case 13: {
             bigPic.setAttribute("src", "images/Latin_Kávék/BarcelonaiRumosKörtés_Kávé.PNG")
-            bigDesc.innerHTML = "<h1> Barcelonai rumos-körtés csillámmokka - Édes</h1> <p> Barcelonai cortado az alapja, vagyis kesernyésre pörkölt (az olasznál hosszabbra főzött) katalán espresso, leheletnyi tejjel. Ennek a mélyén ölelkezik össze a rum a körtepéppel és a forró csokoládéval. A latin ital-költeményt sok hab és csillámló csokigömböcskék koronázzák.</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1> Barcelonai rumos-körtés csillámmokka - Édes</h1> <p> Barcelonai cortado az alapja, vagyis kesernyésre pörkölt (az olasznál hosszabbra főzött) katalán espresso, leheletnyi tejjel. Ennek a mélyén ölelkezik össze a rum a körtepéppel és a forró csokoládéval. A latin ital-költeményt sok hab és csillámló csokigömböcskék koronázzák.</p> <p><i> 850 Ft</i></p>"
             break
         }
         case 14: {
             bigPic.setAttribute("src", "images/Latin_Kávék/PeruiNarancsvirágLatte_Kávé.PNG")
-            bigDesc.innerHTML = "<h1> Perui narancs-virág latte</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1>Perui narancs-virág latte</h1> <p> Ennek a meleg, tejes italnak már a részletes leírása is költemény, hát még az íze! Inka égi-virág kávé sárgabarack zselével, kék konkolyból és narancsvirágból.</p> <p><i> 850 Ft</i></p>"
             break
         }
         case 15: {
             bigPic.setAttribute("src", "images/Latin_Kávék/RióiKókuszos_Kávé.PNG")
-            bigDesc.innerHTML = "<h1>Neve</h1> <p>Leírása</p> <p><i>Ára</i></p>"
+            bigDesc.innerHTML = "<h1> Riói kókuszos „media” rózsaborssal</h1> <p> Ahogy az elnevezésben szereplő „media” szócska is mutatja, ez a kávé tejjel, közepes hosszúságúra főzve készül, a legújabb riói trend szerint, kókusszal és rózsaborssal felgőzölve. A rózsabors elnevezése csalóka, mert az íze nem csípős, hanem édeskés, csak a végén emlékeztet kicsit a borsra.</p> <p><i> 850 Ft</i></p>"
             break
         }
 
