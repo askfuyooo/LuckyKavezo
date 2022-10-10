@@ -214,5 +214,22 @@ function picClick(kep) {
             bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
             break
         }
+
+        //Torta szeletek
+        case 's4': {
+            bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Nutella_szelet.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
+        case 's5': {
+            bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Soskaramell_szelet.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
+        case 's6': {
+            bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Voros_Barsony_szelet.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
     }
 }
