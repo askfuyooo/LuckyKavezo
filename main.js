@@ -235,17 +235,17 @@ function picClick(kep) {
         //Vegán sütik
         case 's7': {
             bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/berry_white.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> 'White berry' </h2> <p> Vegán és gluténmentes sütemény kollekciónk egyik legújabb tagja. <p> Valrhona málnás vegán csokoládéba mártott epres málna mousse bogyós zselékrémmel, epres málnazselével, mandulás málnás kekszropogóssal és vaníliás gyömbéres habkrémmel a tetején.</p></p> <p><i> 1 690 Ft </i></p>"
             break
         }
         case 's8': {
             bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/nutellás_sóskaramel_&_földimogyis_brownie.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Sós karamellás földimogyoró nutellás brownie-val </h2> <p> Gluténmentes, szaftos belga csokoládés brownie házi sós karamellával, földimogyorókrémmel és Nutellával </p> <p><i> 1 350 Ft </i></p>"
             break
         }
         case 's9': {
             bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/Vegan_pisztacia.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Vegán pisztácai szelet </h2> <p> Igazi szíciliai pisztáciabomba és intenzív sós pisztácia ízek! Szaftos mandulás és pisztáciás piskóta pisztáciás keksz ropogóssal, sós pisztáciakrémmel és pisztáciahabbal, tetején roppanós pisztáciával díszítve. Maltitollal és eritrittel édesítve. </p> <p><i> 1 690 Ft </i></p>"
             break
         }
     }
