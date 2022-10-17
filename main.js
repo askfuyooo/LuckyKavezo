@@ -231,5 +231,22 @@ function picClick(kep) {
             bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
             break
         }
+
+        //Vegán sütik
+        case 's7': {
+            bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/berry_white.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
+        case 's8': {
+            bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/nutellás_sóskaramel_&_földimogyis_brownie.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
+        case 's9': {
+            bigPic.setAttribute("src", "images/Sütemények/Vegan_suti/Vegan_pisztacia.png")
+            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            break
+        }
     }
 }
