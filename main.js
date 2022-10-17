@@ -201,34 +201,34 @@ function picClick(kep) {
         //Sajttorták
         case 's1': {
             bigPic.setAttribute("src", "images/Sütemények/Sajttortak/karamellas_sajttorta.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Karamellás Sajttorta </h2> <p>  A sajttortánkat háromféle sajtkrémből készítjük, melyhez aztán házi sós karamellát csorgatunk.</p> <p><i> 1 390 Ft </i></p>"
             break
         }
         case 's2': {
             bigPic.setAttribute("src", "images/Sütemények/Sajttortak/Marakujas_sajttorta.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Marakujás Sajttorta </h2> <p> Legújabb sajttortánkat egzotikus ízzel párosítottuk. A sajttortánkhoz puha marakujás-mangós zselét csorgattunk, amitől üditően kellemes, frissítő tortát kaptunk. Most ez a kedvencünk! </p> <p><i> 1 350 Ft </i></p>"
             break
         }
         case 's3': {
             bigPic.setAttribute("src", "images/Sütemények/Sajttortak/Nutellas_sajttorta.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Nutellás Sajttorta </h2> <p> Egyik legkedveltebb ízpárosítás. A kekszes alaphoz mogyorólisztet és kakaót használunk, a sajttortánkhoz Nutellát csorgatunk és pörkölt mogyoródarabokkal szórjuk meg a teljesség jegyében. </p> <p><i> 1 390 Ft </i></p>"
             break
         }
 
         //Torta szeletek
         case 's4': {
             bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Nutella_szelet.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Nutellatorta szelet </h2> <p> Mogyorós csokoládés Nutella krémes torta szaftos brownie piskótával, mogyorós daquoise piskótával, pörkölt mogyoróval és nutellás macaronnal. </p> <p><i> 1 390 Ft </i></p>"
             break
         }
         case 's5': {
             bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Soskaramell_szelet.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> Sóskaramellás torta szelet </h2> <p> Mascarponés sós karamell torta tejcsokis karamellával, fényes karamell bevonóval és sós karamellás macaronnal. </p> <p><i> 1 190 Ft </i></p>"
             break
         }
         case 's6': {
             bigPic.setAttribute("src", "images/Sütemények/Torta_szeletek/Voros_Barsony_szelet.png")
-            bigDesc.innerHTML = "<h1> Cím </h2> <p> Leírás </p> <p><i> Ár </i></p>"
+            bigDesc.innerHTML = "<h1> 'Vörös Bársony' szelet </h2> <p> Csábítóan mélyvörös kakaós piskóta selymes tejszínes krémsajt rétegekkel. </p> <p><i> 990 Ft </i></p>"
             break
         }
     }
